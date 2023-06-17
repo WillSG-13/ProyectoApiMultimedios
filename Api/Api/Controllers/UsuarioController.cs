@@ -33,15 +33,11 @@ namespace Api.Controllers
 
         [HttpDelete]
         [Route("deleteUser/{id}")]
-        public Boolean deleteUser(int id)
+        public void deleteUser(int id)
         {
-            foreach (User user in this.contextoBD.user) {
-                if(user.IdUser==id){ 
-                    this.contextoBD.user.Remove(user);
-                    return true;
-                }
-            }
-            return false;
+            var temp = this.contextoBD.user.FirstOrDefault(u => u.IdUser == id);
+            this.contextoBD.Remove(temp);
+            this.contextoBD.SaveChanges();
         }
     }
 }
