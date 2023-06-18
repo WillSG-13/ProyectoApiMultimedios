@@ -12,6 +12,7 @@ namespace Api.Data
         public DbSet<User> user { get; set; }
 
         public DbSet<Menu> menu { get; set; }
+        //de katherin
 
         public DbSet<Controler> controller { get; set; }
     }
