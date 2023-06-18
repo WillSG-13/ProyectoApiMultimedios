@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Op9kqiTgyRcr0B/dkKspgRzeaQX339etaCQAGT1dpZamwpZnNVjYZ9Dov1P4XlIs7JjiQCuuBZevKqbDJgT3Bg==",
+  "dgSpecHash": "5RJTRfZrrf7UykCxlOkhHfoTcNlyWqGEjovAuNQc8eAyK9600ZjtFPMvMbnOabxTDK44xv4WryOBAzE50l8PNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\racha\\Source\\Repos\\ProyectoApiMultimedios\\Api\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\racha\\OneDrive\\Escritorio\\ProyectoApiMultimedios\\Api\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\racha\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\racha\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
