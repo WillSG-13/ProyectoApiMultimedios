@@ -13,7 +13,7 @@ namespace Api.Model
             public DateTime CreatedAt { get; set; }
             public bool Enabled { get; set; }
             [MaxLength(2)]
-            public DateTime UpdateAt { get; set; }
+            public DateTime UpdatedAt { get; set; }
         
     }
 }
